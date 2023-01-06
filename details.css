@@ -1,0 +1,147 @@
+*{
+    font-family: 'Inter';
+    padding: auto;
+    margin: auto;
+}
+.head{
+    display: flex;
+    padding-top: 32px;
+    align-items: center;
+}
+.menu-head ul{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.menu-head ul li{
+    list-style: none;
+    padding-right: 32px;
+}
+.menu-head ul li a{
+    margin-left: 60px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #111928;
+}
+.login-and-signup .login{
+    width: 84px;
+    height: 42px;
+    border: 1px solid #F54748;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F54748;
+    background-color: white;
+}
+.login-and-signup .signup{
+    width: 84px;
+    height: 42px;
+    background: #F54748;
+    border-radius: 5px;
+    border-color: #F54748;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+}
+.banner{
+    margin-top: 50px;
+    display: flex;
+}
+.banner .banner-details h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #111928;
+}
+.banner .banner-details h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #F54748;
+}
+.banner .banner-details p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #111928;
+}
+.banner .banner-details input{
+    width: 180px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.banner .banner-details button{
+    width: 110px;
+    height: 42px;
+    background: #111928;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+.body-head{
+    padding: 16px;
+}
+.footer {
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.footer .foot-menu ul{
+    display: flex;
+}
+.footer .foot-menu ul li{
+    list-style: none;
+    padding-right: 32px;
+}
+.footer .foot-menu ul li a{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #5D5D5D;
+}
+.products-details .prod-desc h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #111928;
+}
+.products-details .prod-desc p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F54748;
+}
+.products-details .prod-desc button{
+    width: 400px;
+    height: 42px;
+    background: #111928;
+    border-radius: 6px;
+    color: white;
+}
+.prod{
+    display: flex;
+}
